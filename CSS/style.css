@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins&family=Questrial&family=Roboto&display=swap');
+
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 80vw;
+    margin: auto;
+}
+
+
+.logo img{
+    width: 15vw;
+    
+}
+
+.navbarList{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    list-style: none;
+    padding: 2px 0px;
+    /* flex: 5; */
+    margin: 0px 25px;
+}
+.navbarList:hover{
+    color: gray;
+}
+
+.navbarListItems{
+    margin: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbarListItems a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.navBtn button{
+    background-color: #af4328;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.1s ease-in;
+    
+}
+.navBtn button:hover{
+    border-radius: 17px ;
+    opacity: 0.7;
+    border-bottom-left-radius: 0px;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: auto;
+}
+
+.mainInfo {
+    /* border: 2px solid red; */
+    /* height: 100%; */
+    padding: 45px;
+}
+
+.mainInfo h2{
+    font-size: 2.4rem;
+    width: 65%;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainInfo p{
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainInfo h2 >span{
+    color: rgb(235, 159, 73);
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.mainImg{
+    /* border: 2px solid red; */
+}
+.mainImg img{
+    height: 35vw;
+}
+
+.navBtn .mainBtn{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30vh 0px;
+}
+
+.section2 h2{
+    width: 500px;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.section2 h2 span{
+    color: rgb(235, 159, 73);
+    font-family: 'Caveat', cursive;
+    font-size: 2.4rem;
+}
+
+.secList{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secList h1{
+    color: rgb(235, 159, 73);
+}
+.secListItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin: 0px 10px;
+}
+.secListItem p{
+    width: 200px;
+    margin-top: 10px;
+    font-size: 18px;
+    display: table;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    line-height: 1.8rem;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 650px;
+}
+
+.sec3Info{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec3Info h3{
+    font-size: 25px;
+    width: 350px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec3Img img{
+    width: 37vw;
+}
+
+.sec3ListItem{
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.navBtn .Sec3Btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.sec3Info h3 span{
+    color: rgb(235, 159, 73);
+    font-family: 'Caveat', cursive;
+    font-size: 2.4rem;
+}
+
+.sec4ListDiv{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.section4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+.section4 h2{
+    margin: auto;
+    text-align: center;
+    width: 390px;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec4List{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    /* border: 2px solid red; */
+}
+
+.sec4List img{
+    height: 8vw;
+}
+
+.sec4List h3{
+    margin: 10px 0px 0 0;
+    color: rgb(235, 159, 73);
+    font-family: 'Caveat', cursive; 
+    font-size: 2rem;
+}
+
+.sec4List p{
+    width: 350px;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sign>  h3{
+    font: 12px;
+    color: gray;
+}
+
+footer{
+    display: flex;
+    justify-content: center;    
+}
+
+.form {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.form h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0;
+}
+
+.form h2{
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    margin: 10px 0;
+}
+
+.formControls{
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+    border: 15px;
+}
+
+
+.formControls input{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+}
+
+.formControls button{
+    width: 100%;
+    background-color: rgb(196, 63, 40);
+    color: white;
+    padding: 7px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.book img{
+    height: 30vw;
+}
